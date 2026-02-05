@@ -70,6 +70,8 @@ min-height: 100vh;
 background-size: cover;
 background-position:center;
 max-width: 100%;
+flex-direction: column;
+gap: 12px;
 }
 .hero-circle{
     align-items: center;
@@ -80,11 +82,36 @@ max-width: 100%;
     margin-bottom: 12px;
 
 }
+.hero-content{
+  text-align: center;
 }
 .hero-content p{
     max width: 16px;
     margin-bottom: 20px;
 
+}
+.img-box{
+  position:relative;
+}
+
+.mic{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:90px;
+}
+
+.badge{
+  position:absolute;
+  top:20px;
+  right:-10px;
+  background:#35ff9c;
+  color:black;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:12px;
+  font-weight:bold;
 }
 .about-container{
     flex-direction: row;
