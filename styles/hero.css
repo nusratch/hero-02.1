@@ -205,6 +205,8 @@ justify-content: flex-start;
 align-items: center;
 gap: 30S;
 padding: 40px;
+margin:0 auto;
+
 }
 ..host-element img{
     width: 200px;
@@ -214,43 +216,54 @@ height: 200px;
     width: 896px;
 height: 183px;
 }
-.footer-nane{
-   color:linear-gradient(90deg,#7f00ff,#00c6ff)
+.icon{
+    display: flex;
+    gap: 12px;
+
+}
+.footer-social{
+
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 30000px;
+  justify-content: flex-start;
+text-align: center;
+display: inline;
+color: white;
+
+
 }
 
 .footer{
-width:100%;
-background-image:url("./assets/footer-bg.png");
-background-size:cover;
-background-position:center;
-padding:80px 0;
-margin-top:100px;
+    background-image: url('/assets/footer-bg.png');
+    
+    font-style: normal;
+      gap: 10px;
 }
-
-.footer-container{
-display:flex;
-flex-direction:column;
-align-items:center;
-gap:20px;
-}
-
-.footer-social{
-display:flex;
-justify-content:center;
-}
-
-.social-icons{
-display:flex;
-gap:25px;
-}
-
-.social-icons img{
-width:32px;
-height:32px;
-}
-
 .footer-copy{
-color:white;
-text-align:center;
-margin-top:20px;
+    align-items: center;
+     justify-content: center;
+        text-align: center;
+        padding: 80px 80px 80px 80px;
+        justify-content: flex-start;
+}
+
+    .social-icons{
+        display: flex;
+        gap: 16px;
+        text-align: center;
+         justify-content: center;
+        text-align: center;
+    }
+
+.footer-container h1{
+    text-align: center;
+    padding-top: 80px;
+}
+.iconename{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: small;
+
 }
