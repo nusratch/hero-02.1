@@ -104,11 +104,6 @@ align-items: center;
 justify-content: center;
 }
 
-body{
-background:#050b18;
-color:white;
-font-family:Arial;
-}
 
 .about-container{
 text-align:center;
@@ -148,14 +143,25 @@ margin-bottom:8px;
 color:#aaa;
 font-weight:400;
 }
+
+body{
+background:#050b18;
+color:white;
+font-family:Arial;
+}
+
 .episodes{
 padding:60px;
 }
 
-
+.card-container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
 
 .card{
-background:rgba(44, 6, 184, 0.05);
+background:rgba(255,255,255,.05);
 border-radius:20px;
 padding:20px;
 position:relative;
@@ -189,6 +195,25 @@ color:#00ffb3;
 }
 
 
+
+.host-container{
+    display: flex;
+width: 1200px;
+height: 280px;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 30S;
+padding: 40px;
+}
+..host-element img{
+    width: 200px;
+height: 200px;
+}
+.host-element{
+    width: 896px;
+height: 183px;
+}
 .footer-nane{
    color:linear-gradient(90deg,#7f00ff,#00c6ff)
 }
